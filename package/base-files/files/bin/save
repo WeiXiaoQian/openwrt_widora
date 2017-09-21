@@ -1,0 +1,3 @@
+#!/bin/sh
+cp -rf /etc/config/* /usr_data/etc/config/
+echo "save ok\n"

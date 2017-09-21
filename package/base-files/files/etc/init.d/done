@@ -3,9 +3,6 @@
 
 START=95
 boot() {
-	mkdir /usr_data
-	/bin/mount -t jffs2 /dev/mtdblock6 /usr_data
-	#	mount_root done
 	rm -f /sysupgrade.tgz
 
 	# process user commands

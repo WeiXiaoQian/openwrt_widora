@@ -10,7 +10,7 @@ define Profile/Widora32M
 	PACKAGES:=\
 		kmod-usb-core kmod-usb2 kmod-usb-ohci \
 		uboot-envtools kmod-ledtrig-netdev \
-  		mountd \
+  		mountd fstools-my \
         	mjpg-streamer \
 		uhttpd rpcd rpcd-mod-iwinfo \
 		rpcd-mod-rpcsys cgi-io spi-tools \
