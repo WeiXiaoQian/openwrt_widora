@@ -98,12 +98,7 @@
 
 				partition@50000 {
 					label = "firmware";
-					reg = <0x50000 0x700000>;
-					read-only;
-				};
-				partition@750000 {
-					label = "data";
-					reg = <0x750000 0x1800000>;
+					reg = <0x50000 0x1f00000>;
 				};
 			};
 
